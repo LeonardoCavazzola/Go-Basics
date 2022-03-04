@@ -12,3 +12,16 @@ func whileTrueAndBreak() {
 		}
 	}
 }
+
+func forI() {
+	for i := 0; i < 5; i++ {
+		fmt.Println(i)
+	}
+}
+
+func forRange() {
+	numbers := []string{"zero", "one", "two", "three", "four"}
+	for i, item := range numbers {
+		fmt.Println("index =", i, "| item =", item)
+	}
+}
