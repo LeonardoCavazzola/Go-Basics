@@ -3,6 +3,6 @@ package main
 import "os"
 
 func main() {
-	forRange()
+	tryTime()
 	os.Exit(0) // do not necessary
 }
