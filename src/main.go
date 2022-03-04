@@ -3,6 +3,6 @@ package main
 import "os"
 
 func main() {
-	whileTrueAndBreak()
+	slice()
 	os.Exit(0) // do not necessary
 }
