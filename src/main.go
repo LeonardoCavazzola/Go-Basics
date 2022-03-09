@@ -3,6 +3,6 @@ package main
 import "os"
 
 func main() {
-	bufioReader()
+	now()
 	os.Exit(0) // do not necessary
 }

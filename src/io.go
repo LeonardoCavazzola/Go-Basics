@@ -26,3 +26,9 @@ func readFile() {
 
 	fmt.Println(string(file))
 }
+
+func writeFile() {
+	file, _ := os.OpenFile("./wrote.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	_, _ = file.WriteString("abc\n")
+	_ = file.Close()
+}
